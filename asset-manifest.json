@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/client-project71/static/css/main.22e0501e.css",
+    "main.js": "/client-project71/static/js/main.87d62475.js",
+    "static/js/453.f852e592.chunk.js": "/client-project71/static/js/453.f852e592.chunk.js",
+    "static/media/ultrasonic-flow-meter.png": "/client-project71/static/media/ultrasonic-flow-meter.8ab9a8ef789a0cdc3d12.png",
+    "static/media/online-water-analyser.png": "/client-project71/static/media/online-water-analyser.83f286ed3be67b4f39ad.png",
+    "static/media/automatic-weather-monitoring-system.png": "/client-project71/static/media/automatic-weather-monitoring-system.c568201f25d859d7e8ce.png",
+    "static/media/PIEZOMETER.jpg": "/client-project71/static/media/PIEZOMETER.d900a538ed9bb03a25df.jpg",
+    "static/media/crousal-img2.jpg": "/client-project71/static/media/crousal-img2.afa707bbcd02270bc6ee.jpg",
+    "static/media/logo-main.jpg": "/client-project71/static/media/logo-main.6adb61d515c1823db31b.jpg",
+    "static/media/crousal-img1.jpg": "/client-project71/static/media/crousal-img1.541dbcd9cd4b983e4cff.jpg",
+    "static/media/crousal-img3.jpg": "/client-project71/static/media/crousal-img3.c3e47b1d551614d76cae.jpg",
+    "static/media/CEMS.avif": "/client-project71/static/media/CEMS.d6c78e4042be6a260a45.avif",
+    "index.html": "/client-project71/index.html",
+    "main.22e0501e.css.map": "/client-project71/static/css/main.22e0501e.css.map",
+    "main.87d62475.js.map": "/client-project71/static/js/main.87d62475.js.map",
+    "453.f852e592.chunk.js.map": "/client-project71/static/js/453.f852e592.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22e0501e.css",
+    "static/js/main.87d62475.js"
+  ]
+}
