@@ -118,7 +118,7 @@ const ContactPage = () => {
                 <FaMapMarkerAlt className="icon" /> Address
               </span>
               <p className="text-muted mt-1 mb-3">
-              Flat No. 3, GOPINAGAR B SECTOR  KAHJURI KALAN ,<br />
+              Flat No. 3, GOPAL NAGAR B SECTOR  KAHJURI KALAN ,<br />
               Bhopal, Madhya Pradesh <br /> Pincode: 452022
               </p>
             </div>

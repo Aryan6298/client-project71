@@ -76,7 +76,7 @@ const Footer = () => {
 
             <div>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7334.709203119248!2d77.44349640698731!3d23.193744315866667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c438941ae25cb%3A0x7a27309f61f3b592!2sGeocon%20Services!5e0!3m2!1sen!2sin!4v1745213063170!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d393.79325505359924!2d77.50637455672842!3d23.23675378582924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x397c41005cbc0b1d%3A0x64518d73582ad807!2s6GP4%2BMMX%20Gopal%20Nagar%2C%20Khajuri%20Kalan%20Rd%2C%20Khajurikala%2C%20Bhopal%2C%20Madhya%20Pradesh%20462022!3m2!1d23.2367462!2d77.5067285!5e0!3m2!1sen!2sin!4v1755094620419!5m2!1sen!2sin"
                 width="100%"
                 height="150"
                 style={{ border: 0 }}
@@ -95,7 +95,7 @@ const Footer = () => {
             </h5>
             <p style={{ color: "white"}}>
               <FaMapMarkerAlt className="me-2" />
-              Flat No. 3, GOPINAGAR B SECTOR  KAHJURI KALAN ,<br />
+              Flat No. 3, GOPAL NAGAR B SECTOR  KAHJURI KALAN ,<br />
               Bhopal, Madhya Pradesh <br /> Pincode: 452022
             </p>
           </div>

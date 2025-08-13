@@ -8,7 +8,6 @@
 /* Apply background to the whole app */
 body {
   min-height: 10vh;
-   
   background-image: url('./assets/logo-main.jpg'); /* Change path if needed */
   background-size: 110vh;                  /* Make it fill the screen */
   background-position: center;             /* Center the image */
@@ -27,4 +26,26 @@ body::before {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4); /* Adjust darkness */
   z-index: -1; /* Keep it behind all content */
+}
+
+/* Floating WhatsApp button styling */
+.floating-whatsapp-btn {
+  position: fixed;
+  bottom: 20px; /* Distance from bottom */
+  right: 20px;  /* Distance from right */
+  background-color: #25D366; /* WhatsApp green */
+  color: white;
+  padding: 12px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  transition: transform 0.2s ease-in-out;
+}
+
+.floating-whatsapp-btn:hover {
+  transform: scale(1.1);
+  background-color: #20b954;
 }

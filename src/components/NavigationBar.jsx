@@ -64,7 +64,7 @@ const NavigationBarBootstrap = () => {
 
         .tagline {
           font-size: 0.9rem;
-          margin-top: -0.3rem;
+          margin-top: 0.1rem;
         }
 
         /* Responsive company name size for mobile */
