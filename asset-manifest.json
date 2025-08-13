@@ -1,8 +1,16 @@
 {
   "files": {
-    "main.css": "/client-project71/static/css/main.22e0501e.css",
-    "main.js": "/client-project71/static/js/main.5e06339e.js",
-    "static/js/453.f852e592.chunk.js": "/client-project71/static/js/453.f852e592.chunk.js",
+    "main.css": "/client-project71/static/css/main.4bbb2609.css",
+    "main.js": "/client-project71/static/js/main.5c4d102b.js",
+    "static/js/780.6a100486.chunk.js": "/client-project71/static/js/780.6a100486.chunk.js",
+    "static/js/747.f99e8fe3.chunk.js": "/client-project71/static/js/747.f99e8fe3.chunk.js",
+    "static/js/523.bf205d0b.chunk.js": "/client-project71/static/js/523.bf205d0b.chunk.js",
+    "static/js/528.f62f9042.chunk.js": "/client-project71/static/js/528.f62f9042.chunk.js",
+    "static/js/184.7c2aa5fb.chunk.js": "/client-project71/static/js/184.7c2aa5fb.chunk.js",
+    "static/js/453.3f7f66b5.chunk.js": "/client-project71/static/js/453.3f7f66b5.chunk.js",
+    "static/css/351.8a4ef70a.chunk.css": "/client-project71/static/css/351.8a4ef70a.chunk.css",
+    "static/js/351.3b112ded.chunk.js": "/client-project71/static/js/351.3b112ded.chunk.js",
+    "static/js/410.50aa63d4.chunk.js": "/client-project71/static/js/410.50aa63d4.chunk.js",
     "static/media/ultrasonic-flow-meter.png": "/client-project71/static/media/ultrasonic-flow-meter.8ab9a8ef789a0cdc3d12.png",
     "static/media/online-water-analyser.png": "/client-project71/static/media/online-water-analyser.83f286ed3be67b4f39ad.png",
     "static/media/automatic-weather-monitoring-system.png": "/client-project71/static/media/automatic-weather-monitoring-system.c568201f25d859d7e8ce.png",
@@ -13,12 +21,20 @@
     "static/media/crousal-img3.jpg": "/client-project71/static/media/crousal-img3.c3e47b1d551614d76cae.jpg",
     "static/media/CEMS.avif": "/client-project71/static/media/CEMS.d6c78e4042be6a260a45.avif",
     "index.html": "/client-project71/index.html",
-    "main.22e0501e.css.map": "/client-project71/static/css/main.22e0501e.css.map",
-    "main.5e06339e.js.map": "/client-project71/static/js/main.5e06339e.js.map",
-    "453.f852e592.chunk.js.map": "/client-project71/static/js/453.f852e592.chunk.js.map"
+    "main.4bbb2609.css.map": "/client-project71/static/css/main.4bbb2609.css.map",
+    "main.5c4d102b.js.map": "/client-project71/static/js/main.5c4d102b.js.map",
+    "780.6a100486.chunk.js.map": "/client-project71/static/js/780.6a100486.chunk.js.map",
+    "747.f99e8fe3.chunk.js.map": "/client-project71/static/js/747.f99e8fe3.chunk.js.map",
+    "523.bf205d0b.chunk.js.map": "/client-project71/static/js/523.bf205d0b.chunk.js.map",
+    "528.f62f9042.chunk.js.map": "/client-project71/static/js/528.f62f9042.chunk.js.map",
+    "184.7c2aa5fb.chunk.js.map": "/client-project71/static/js/184.7c2aa5fb.chunk.js.map",
+    "453.3f7f66b5.chunk.js.map": "/client-project71/static/js/453.3f7f66b5.chunk.js.map",
+    "351.8a4ef70a.chunk.css.map": "/client-project71/static/css/351.8a4ef70a.chunk.css.map",
+    "351.3b112ded.chunk.js.map": "/client-project71/static/js/351.3b112ded.chunk.js.map",
+    "410.50aa63d4.chunk.js.map": "/client-project71/static/js/410.50aa63d4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22e0501e.css",
-    "static/js/main.5e06339e.js"
+    "static/css/main.4bbb2609.css",
+    "static/js/main.5c4d102b.js"
   ]
 }
