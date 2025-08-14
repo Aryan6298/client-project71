@@ -53,7 +53,7 @@ const Footer = () => {
               Connect with Us
             </h5>
             <div className="d-flex gap-3 mb-3">
-              <a
+             {/* <a
                 href="https://www.instagram.com/geoconservices/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -61,9 +61,9 @@ const Footer = () => {
                 aria-label="Instagram"
               >
                 <FaInstagram />
-              </a>
+              </a> */}
 
-              <a
+              {/* <a
                 href="https://www.facebook.com/geoconservices"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -71,7 +71,7 @@ const Footer = () => {
                 aria-label="Facebook"
               >
                 <FaFacebookF />
-              </a>
+              </a> */}
             </div>
 
             <div>
@@ -79,7 +79,8 @@ const Footer = () => {
                 src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d393.79325505359924!2d77.50637455672842!3d23.23675378582924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x397c41005cbc0b1d%3A0x64518d73582ad807!2s6GP4%2BMMX%20Gopal%20Nagar%2C%20Khajuri%20Kalan%20Rd%2C%20Khajurikala%2C%20Bhopal%2C%20Madhya%20Pradesh%20462022!3m2!1d23.2367462!2d77.5067285!5e0!3m2!1sen!2sin!4v1755094620419!5m2!1sen!2sin"
                 width="100%"
                 height="150"
-                style={{ border: 0 }}
+                
+                style={{ border: 0,marginTop: '-20px' }}
                 allowFullScreen=""
                 loading="lazy"
                 title="Our Location"

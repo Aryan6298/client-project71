@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Clients from '../components/Clientsmarque';
+import Clients from '../components/Clientsection';
 const ClientsPage = () => {
     return (
         <div style={{backgroundColor: "#002244",marginTop:"50px"}}>           
