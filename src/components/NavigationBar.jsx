@@ -205,7 +205,7 @@ const NavigationBarBootstrap = () => {
         }
       `}</style>
 
-      <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top" style={{ zIndex: 1090, marginTop }}>
+      <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top" style={{ zIndex: 1090, marginTop }} >
         <div className="container-fluid px-4">
           <Link className="navbar-brand d-flex align-items-start gap-2" to="/" onClick={handleNavLinkClick}>
             <img src={logo} alt="Logo" className="rounded logo-img" />
@@ -224,7 +224,7 @@ const NavigationBarBootstrap = () => {
               <li className="nav-item"><NavLink className="nav-link" to="/" onClick={handleNavLinkClick}>Home</NavLink></li>
               <li className="nav-item dropdown">
                 <div className="nav-dropdown-combo d-flex align-items-center position-relative">
-                  <NavLink className="nav-link d-flex align-items-center gap-1" to="/programs" onClick={(e) => {
+                  <NavLink className="nav-link d-flex align-items-center gap-1" to="/services" onClick={(e) => {
                     if (window.innerWidth < 992) {
                       e.preventDefault(); setMobileDropdownOpen(!mobileDropdownOpen);
                     } else {
@@ -237,26 +237,23 @@ const NavigationBarBootstrap = () => {
                   </span>
                 </div>
                 <ul className={`mobile-dropdown dropdown-menu${mobileDropdownOpen ? ' open' : ''} d-lg-none`}>
-                  <li><NavLink className="dropdown-item" to="/programs#capacity" onClick={handleNavLinkClick}>Capacity Building</NavLink></li>
-                  <li><NavLink className="dropdown-item" to="/programs#carbon" onClick={handleNavLinkClick}>Carbon Footprint</NavLink></li>
-                  <li><NavLink className="dropdown-item" to="/programs#livelihood" onClick={handleNavLinkClick}>Livelihood</NavLink></li>
-                  <li><NavLink className="dropdown-item" to="/programs#cleanup" onClick={handleNavLinkClick}>Clean-Up Drives</NavLink></li>
-                  <li><NavLink className="dropdown-item" to="/programs#treeplantation" onClick={handleNavLinkClick}>Tree Plantation</NavLink></li>
-                  <li><NavLink className="dropdown-item" to="/programs#wastemanagement" onClick={handleNavLinkClick}>Waste Management</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/recharge-structure" onClick={handleNavLinkClick}>Recharge Structure</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/rainwater-harvesting" onClick={handleNavLinkClick}>Rainwater Harvesting</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/well-monitoring" onClick={handleNavLinkClick}>Well Monitoring</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/resistivity-survey" onClick={handleNavLinkClick}>Resistivity Survey</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/pumping-test" onClick={handleNavLinkClick}>Pumping Test</NavLink></li>
                 </ul>
                 <ul className="dropdown-menu d-none d-lg-block">
-                  <li><NavLink className="dropdown-item" to="/programs#capacity" onClick={handleNavLinkClick}>Capacity Building</NavLink></li>
-                  <li><NavLink className="dropdown-item" to="/programs#carbon" onClick={handleNavLinkClick}>Carbon Footprint</NavLink></li>
-                  <li><NavLink className="dropdown-item" to="/programs#livelihood" onClick={handleNavLinkClick}>Livelihood</NavLink></li>
-                  <li><NavLink className="dropdown-item" to="/programs#cleanup" onClick={handleNavLinkClick}>Clean-Up Drives</NavLink></li>
-                  <li><NavLink className="dropdown-item" to="/programs#treeplantation" onClick={handleNavLinkClick}>Tree Plantation</NavLink></li>
-                  <li><NavLink className="dropdown-item" to="/programs#wastemanagement" onClick={handleNavLinkClick}>Waste Management</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/recharge-structure" onClick={handleNavLinkClick}>Recharge Structure</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/rainwater-harvesting" onClick={handleNavLinkClick}>Rainwater Harvesting</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/well-monitoring" onClick={handleNavLinkClick}>Well Monitoring</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/resistivity-survey" onClick={handleNavLinkClick}>Resistivity Survey</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/pumping-test" onClick={handleNavLinkClick}>Pumping Test</NavLink></li>
                 </ul>
               </li>
               <li className="nav-item"><NavLink className="nav-link" to="/instruments" onClick={handleNavLinkClick}>Instruments</NavLink></li>
               <li className="nav-item"><NavLink className="nav-link" to="/about" onClick={handleNavLinkClick}>About Us</NavLink></li>
-              <li className="nav-item"><NavLink className="nav-link" to="/projects" onClick={handleNavLinkClick}>Projects</NavLink></li>
-              <li className="nav-item"><NavLink className="nav-link" to="/clients" onClick={handleNavLinkClick}>Clients</NavLink></li>
+            <li className="nav-item"><NavLink className="nav-link" to="/projects" onClick={handleNavLinkClick}>Projects</NavLink></li>               <li className="nav-item"><NavLink className="nav-link" to="/clients" onClick={handleNavLinkClick}>Clients</NavLink></li>
               <li className="nav-item"><NavLink className="nav-link" to="/contact" onClick={handleNavLinkClick}>Contact Us</NavLink></li>
             </ul>
           </div>

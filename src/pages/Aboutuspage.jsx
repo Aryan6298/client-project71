@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import aboutImg3 from '../assets/crousal-img1.jpg';
-import aboutImg1 from '../assets/crousal-img1.jpg';
-import aboutImg2 from '../assets/crousal-img1.jpg';
+import aboutImg3 from '../assets/pic04 well monitoring.jpg';
+import aboutImg1 from '../assets/pic01-lnct.jpg';
+import aboutImg2 from '../assets/pic 14 Training any hydrogeological study.jpg';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 

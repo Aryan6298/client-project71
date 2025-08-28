@@ -9,7 +9,7 @@
     padding: 0.3rem 2.5rem;
     font-size: 1.05rem;
     min-height: 36px;
-    z-index: 1100;
+    z-index: 99999;
     transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.35s cubic-bezier(0.4, 0, 0.2, 1);
     flex-wrap: wrap;
   }
@@ -89,4 +89,6 @@
     display: inline-block;
     text-align: left;
   }
+  
+
   

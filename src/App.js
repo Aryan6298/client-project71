@@ -11,6 +11,12 @@ import NavigationBar from './components/NavigationBar.jsx';
 import EventBanner from './components/Eventbanner.jsx';
 import Copyrights from './pages/Copyrights.jsx';
 import NotFound from './pages/Notfound.jsx';
+import RechargeStructure from './pages/service01.jsx';
+import RainwaterHarvesting from './pages/service02.jsx';
+import ResistivitySurvey from './pages/service03.jsx';
+import WellMonitoring from './pages/service04.jsx';
+import PumpingTest from './pages/service05.jsx';
+import Services from './pages/Servicespage.jsx';
 
 const Home = lazy(() => import('./pages/Home.jsx'));
 const Aboutuspage = lazy(() => import('./pages/Aboutuspage.jsx'));
@@ -18,7 +24,7 @@ const ContactusPage = lazy(() => import('./pages/ContactusPage.jsx'));
 const InstrumentsPage = lazy(() => import('./pages/InstrumentsPage.jsx'));
 const ClientsPage = lazy(() => import('./pages/ClientsPage.jsx'));
 const Notfound = lazy(() => import('./pages/Notfound.jsx'));
-
+const ProjectsPage = lazy(() => import('./pages/Projects.jsx'));
 
 function ScrollToTop() {
   const location = useLocation();
@@ -85,7 +91,13 @@ function App() {
           <Route path="/about" element={<Aboutuspage />} />
           <Route path="/instruments" element={<InstrumentsPage />} />
           <Route path="/clients" element={<ClientsPage />} />
-    
+          <Route path="/recharge-structure" element={<RechargeStructure />} />
+          <Route path="/rainwater-harvesting" element={<RainwaterHarvesting />} />
+          <Route path="/resistivity-survey" element={<ResistivitySurvey/>} />
+          <Route path="/well-monitoring" element={<WellMonitoring/>} />
+          <Route path="/pumping-test" element={<PumpingTest/>} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/projects" element={<ProjectsPage />} />
                 
           <Route path="/contact" element={<ContactusPage />} />
 

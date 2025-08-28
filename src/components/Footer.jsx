@@ -31,12 +31,12 @@ const Footer = () => {
             </h5>
             <p>
               <a href="tel:9827004138" className="footer-link">
-                <FaPhone className="me-2" /> +91 98270-04138
+                <FaPhone className="me-2"  style={{ transform: "rotate(90deg)" }} /> +91 98270-04138
               </a>
             </p>
             <p>
-              <a href="tel:9827786556" className="footer-link">
-                <FaPhone className="me-2" /> +91 98277-86556
+              <a href="tel:8982949153" className="footer-link">
+                <FaPhone className="me-2"  style={{ transform: "rotate(90deg)" }} /> +91 89829-49153
               </a>
             </p>
            
@@ -95,7 +95,7 @@ const Footer = () => {
               Our Address
             </h5>
             <p style={{ color: "white"}}>
-              <FaMapMarkerAlt className="me-2" />
+              <FaMapMarkerAlt className="me-2"  />
               Flat No. 3, GOPAL NAGAR B SECTOR  KAHJURI KALAN ,<br />
               Bhopal, Madhya Pradesh <br /> Pincode: 452022
             </p>

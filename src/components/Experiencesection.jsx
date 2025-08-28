@@ -13,7 +13,7 @@ const ExperienceSection = () => {
   };
 
   const overlayStyle = {
-    backgroundColor: "rgba(0, 53, 77, 0.8)", // dark greenish overlay
+    backgroundColor: "rgba(10, 61, 98, 0.67)", // dark greenish overlay
     padding: "40px",
     borderRadius: "10px",
   };
@@ -40,7 +40,7 @@ const ExperienceSection = () => {
           <Col md={11}>
             <div style={overlayStyle}>
               <h2 style={headingStyle}>
-                5+ Years of Excellence in Geoscience & Environmental Solutions
+                20+ Years of Excellence in Geoscience & Environmental Solutions
               </h2>
               <p style={paragraphStyle}>
                 With over fifteen years of specialized experience, we have successfully

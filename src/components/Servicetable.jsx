@@ -6,19 +6,20 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from "react-router-dom";
 
 
-import portfolio1 from "../assets/logo-main.jpg";
-import portfolio2 from "../assets/logo-main.jpg";
-import portfolio3 from "../assets/logo-main.jpg";
-import portfolio4 from "../assets/logo-main.jpg";
-import portfolio5 from "../assets/logo-main.jpg";
-import portfolio6 from "../assets/logo-main.jpg";
-import portfolio7 from "../assets/logo-main.jpg";
-import portfolio8 from "../assets/logo-main.jpg";
-import portfolio9 from "../assets/logo-main.jpg";
-import portfolio10 from "../assets/logo-main.jpg";
-import portfolio11 from "../assets/logo-main.jpg";
-import portfolio12 from "../assets/logo-main.jpg";
-import portfolio13 from "../assets/logo-main.jpg";
+import portfolio1 from "../assets/pic1 Rainwater harvesting.jpg";
+import portfolio2 from "../assets/pic02-lnct.jpg";
+import portfolio3 from "../assets/pic03 resistivity survey.jpg";
+import portfolio4 from "../assets/pic04 well monitoring.jpg";
+import portfolio5 from "../assets/pic05 geological 2d cross section.jpg";
+import portfolio6 from "../assets/pic06-gismapping.jpg";
+import portfolio7 from "../assets/pic07 Flowmeter installasiton and compliance.jpg";
+import portfolio8 from "../assets/pic08 temography survay.jpg";
+import portfolio9 from "../assets/pic09 piezometer.jpg";
+import portfolio10 from "../assets/pic10 ground water noc.jpg";
+import portfolio11 from "../assets/pic11 Water body rejuvenation.jpg";
+import portfolio12 from "../assets/pic12 pumping test .jpg";
+import portfolio13 from "../assets/pic13 mining plan.jpg";
+import portfolio14 from "../assets/pic 14 Training any hydrogeological study.jpg";
 
 const ServicesPage = () => {
   useEffect(() => {
@@ -75,19 +76,21 @@ const ServicesPage = () => {
   ];
 
   const portfolioItems = [
-    { image: portfolio1, title: "Resistivity Survey" },
-    { image: portfolio2, title: "Electromagnetic Survey for Ground Water" },
-    { image: portfolio3, title: "Lithological 3D Modeling" },
-    { image: portfolio4, title: "Hydrogeological Study" },
-    { image: portfolio5, title: "Consultancy ETP and STP Works" },
-    { image: portfolio6, title: "Resistivity Survey" },
-    { image: portfolio7, title: "Geological 2D Cross Sections" },
-    { image: portfolio8, title: "Geophysical Investigation Service" },
-    { image: portfolio9, title: "Groundwater Survey Services" },
-    { image: portfolio10, title: "Recharge Structure Construction" },
-    { image: portfolio11, title: "Ground Water Detection Services" },
-    { image: portfolio12, title: "Borewell Construction Service" },
-    { image: portfolio13, title: "Roof Water Rain Water Harvesting" }
+    { image: portfolio1, title: "Rainwater Harvesting" },
+    { image: portfolio2, title: "Recharge Structure Design and Construction" },
+    { image: portfolio3, title: "Resistivity Survey" },
+    { image: portfolio4, title: "Well Monitoring" },
+    { image: portfolio5, title: "Geological 2D Cross Sections" },
+    { image: portfolio6, title: "GIS Mapping" },
+    { image: portfolio7, title: "Flowmeter Installation and Compliance" },
+    { image: portfolio8, title: "Temperature Survey" },
+    { image: portfolio9, title: "Piezometer Installation and Compliance" },
+    { image: portfolio10, title: "Groundwater NOC" },
+        { image: portfolio11, title: "Water Body Regeneration" },
+        { image: portfolio12, title: "Pumping Test" },
+         { image: portfolio13, title: "Mining Plan" },
+         { image: portfolio14, title: "Training any Hydrogeological Study" },
+   
   ];
 
   const logoStyle = {

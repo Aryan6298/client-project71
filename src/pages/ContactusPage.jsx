@@ -15,6 +15,23 @@ const ContactPage = () => {
 
       {/* Custom styles */}
       <style>{`
+        /* Blue gradient heading background */
+          .heading-overlay {
+            display: inline-block;
+         
+            background: linear-gradient(90deg, #0056b3, #0099ff);
+            padding: 10px 25px;
+            border-radius: 10px;
+            margin-top: 50px;
+            color: #fff;
+            font-weight: bold;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+            box-shadow: 0 4px 15px rgba(0,153,255,0.5);
+            transition: transform 0.3s ease;
+          }
+          .heading-overlay:hover {
+            transform: scale(1.05);
+          }
         
 
         .subheading {
@@ -102,13 +119,15 @@ const ContactPage = () => {
         }
       `}</style>
 
-      <Container className="my-5 text-center" data-aos="fade-up">
-        <h1 className="clients-title mb-2">Get In Touch</h1>
-        <p className="subheading mb-4">
+      <Container className="my-5 text-center" >
+      <h2 className="mb-5 text-center fw-bold heading-overlay" data-aos="fade-down">
+        Get In Touch
+        <p className="subheading mb-4 pt-3">
           We are here to assist you. Feel free to reach out anytime!
         </p>
+      </h2>
 
-        <Card className="info-card mx-auto" style={{ maxWidth: '700px' }}>
+        <Card className="info-card mx-auto" style={{ maxWidth: '700px' }} data-aos="fade-up">
           <h4 className="text-primary mb-2">Contact Information</h4>
           <p className="mb-3 text-dark">We are available 7 days a week!</p>
 

@@ -2,7 +2,7 @@ import React from "react";
 import { Carousel } from "react-bootstrap";
 import { useNavigate } from "react-router-dom"; 
 import img1 from "../assets/crousal-img1.jpg";
-import img2 from "../assets/crousal-img2.jpg";
+import img2 from "../assets/yooo.jpg";
 import img3 from "../assets/crousal-img3.jpg";
 
 const HeroCarousel = () => {

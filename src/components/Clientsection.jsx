@@ -16,17 +16,33 @@ import client14 from "../assets/clients-logos/sayaji-hotel-indore-logo.png";
 
 const Clients = () => {
   const clients = [
-    client1, client2, client3, client4, client5, client6, client7,
-    client8, client9, client10, client11, client12, client13, client14
+    client8,  client10, client11, client12, client13, client14,
+    client1, client2, client3,client9, client4, client5, client6, client7,
   ];
 
   return (
     <>
       <style>{`
+         /* Blue gradient heading background */
+          .heading-overlay {
+            display: inline-block;
+            background: linear-gradient(90deg, #0056b3, #0099ff);
+            padding: 10px 25px;
+            border-radius: 10px;
+            margin-left: 180px;
+            color: #fff;
+            font-weight: bold;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+            box-shadow: 0 4px 15px rgba(0,153,255,0.5);
+            transition: transform 0.3s ease;
+          }
+          .heading-overlay:hover {
+            transform: scale(1.05);
+          }
         .clients-section {
-          background: transparent;
+          background-color: transparent;
           padding: 50px 0;
-          text-align: center;
+     text-align: start;
           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
           color: white;
         }
@@ -51,7 +67,7 @@ const Clients = () => {
           height: 4px;
           left: 50%;
           bottom: -12px;
-          background: rgb(79, 217, 255);
+     
           border-radius: 2px;
           transition: width 0.4s ease, left 0.4s ease;
           box-shadow: 0 0 8px rgb(79, 208, 255);
@@ -100,9 +116,11 @@ const Clients = () => {
       `}</style>
 
       <section className="clients-section">
-        <h2 className="clients-title">Our Clients</h2>
+      <h2 className="mb-5 text-center fw-bold heading-overlay" data-aos="fade-down">
+        Our Clients
+      </h2>
         <div className="container">
-          <div className="row clients-row text-center">
+          <div className="row clients-row text-center" data-aos="fade-up">
             {clients.map((client, idx) => (
               <div key={idx} className="col-6 col-sm-4 col-md-4">
                 <div className="client-box">
